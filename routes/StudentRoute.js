@@ -3,7 +3,7 @@ const express = require('express');
 const StudentModel = require('../models/StudentModel');
 const router = express.Router();
 // get all students
-router.get('/student', async (req, res) => {
+router.get('/all-students', async (req, res) => {
     const result = await StudentModel.find({})
     res.send(result)
 })
