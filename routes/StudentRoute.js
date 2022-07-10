@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/student',(req,res)=>{
 
-    res,send({success:false})
+    res.send({success:false})
 
 })
 
