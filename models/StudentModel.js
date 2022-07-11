@@ -7,6 +7,8 @@ const StudentSchema = new Schema({
   school: String,
   class: String,
   divison: String,
+  active:Boolean,
+  invoice:Boolean
  });
 
  module.exports= mongoose.model('course',StudentSchema);
